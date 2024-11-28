@@ -15,7 +15,6 @@ def ProduccionSemanal (V,Kv,N,X):
     Xsemanal = V * X * 7 
     return Xsemanal 
 
-
 ProduccionLecheSem = ProduccionSemanal (V,Kv,N,X)
 print (f"la produccion de leche semanal en la granja es de:{ProduccionLecheSem} litos")
 # Datos de las aves
